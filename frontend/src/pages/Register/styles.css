@@ -1,0 +1,57 @@
+/* CONTAINER PRINCIPAL */
+.register-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+/* CONTENT */
+.register-container .content{
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    /* coloca um espaço entre os container e coloca um pra cada lado */
+    justify-content: space-between;
+    align-items: center;
+}
+/* CONTENT SECTION */
+.register-container .content section{
+    width: 100%;
+    max-width: 380px;
+}
+/* CONTENT SECTION  H1*/
+.register-container .content section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+/* CONTENT SECTION  P*/
+.register-container .content section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;/* distancia entre as linhas */
+}
+/* FORMULARIO */
+.register-container .content form{
+    width: 100%;
+    max-width: 450px;
+}
+/* FORMULARIO INPUT */
+.register-container .content form input{
+    margin-top: 8px;
+}
+/* FORMULARIO INPUT-GROUP */
+.register-container .content form .input-group{
+    display: flex;
+}
+/* INPUT-GROUP INPUT QUE TEM UM INPUT ANTES, ou seja o segundo */
+.register-container .content form .input-group input + input{
+    margin-left: 8px;
+}
